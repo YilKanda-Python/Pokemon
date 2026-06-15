@@ -38,3 +38,37 @@ Solo necesitas tener instalado **Python 3.x** en tu sistema. No requiere depende
 
 ```bash
 python pokemon.py
+```
+
+## 🎮 Demostración de Juego
+Al iniciar el script, tomarás el rol de Ash en un combate contra Brock. El juego te guiará de manera interactiva a través de menús numéricos:
+
+```bash
+============================================================
+RONDA 1
+============================================================
+
+Ash:
+Charizard (Fuego)
+PS: 78/78 [████████] 100.0%
+
+Brock:
+Dragonite (Eléctrico)
+PS: 91/91 [█████████] 100.0%
+
+Ash, es tu turno:
+Movimientos de Charizard:
+1. Lanzallamas (Potencia: 90, Precisión: 100%)
+2. Placaje (Potencia: 40, Precisión: 100%)
+3. Mordida (Potencia: 60, Precisión: 100%)
+4. Vuelo (Potencia: 70, Precisión: 100%)
+
+Selecciona un movimiento (1-4): 1
+```
+
+## 📈 Próximas Mejoras (Roadmap)
+[ ] Implementar movimientos de estado (curación, aumentos de estadísticas como Danza Dragón).
+
+[ ] Añadir la tabla completa de tipos oficial (Inclusión de tipos Volador, Dragón, Psíquico, etc.).
+
+[ ] Crear una interfaz gráfica (GUI) utilizando Tkinter o Pygame.
